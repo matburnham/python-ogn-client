@@ -60,5 +60,6 @@ class TestStringMethods(unittest.TestCase):
         # Note: the actual comment doesn't appear to be parsed
         self.assertNotEqual(message, None)
 
+
 if __name__ == '__main__':
     unittest.main()
